@@ -1,3 +1,5 @@
 requirement.md
 data/sessions.json
 data/history.json
+.gitignore
+.DS_Store
