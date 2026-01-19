@@ -9,6 +9,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 SESSIONS_PATH = os.path.join(DATA_DIR, "sessions.b64")
 HISTORY_PATH = os.path.join(DATA_DIR, "history.b64")
+NOTES_PATH = os.path.join(DATA_DIR, "notes.b64")
 
 QUESTION_BANKS = {
     "comptia": os.path.join(BASE_DIR, "comptia_questions_real.b64"),
@@ -24,6 +25,8 @@ def ensure_data_files():
         save_json(SESSIONS_PATH, {})
     if not os.path.exists(HISTORY_PATH):
         save_json(HISTORY_PATH, [])
+    if not os.path.exists(NOTES_PATH):
+        save_json(NOTES_PATH, {})
 
 
 def load_json(path, default):
@@ -114,6 +117,28 @@ def load_history():
 
 def save_history(records):
     save_json(HISTORY_PATH, records)
+
+
+def load_notes():
+    return load_json(NOTES_PATH, {})
+
+
+def save_notes(notes):
+    save_json(NOTES_PATH, notes)
+
+
+def session_notes_payload(session):
+    notes_store = load_notes()
+    bank_notes = notes_store.get(session["bank"], {})
+    merged = {}
+    for idx, question_id in enumerate(session["questions"]):
+        idx_str = str(idx)
+        note = session.get("notes", {}).get(idx_str)
+        if not note:
+            note = bank_notes.get(str(question_id))
+        if note:
+            merged[idx_str] = note
+    return merged
 
 
 def session_summary(session):
@@ -226,7 +251,7 @@ def api_session_detail(session_id):
             "status": {
                 "answers": session.get("answers", {}),
                 "flags": session.get("flags", {}),
-                "notes": session.get("notes", {}),
+                "notes": session_notes_payload(session),
             },
         }
     )
@@ -251,7 +276,10 @@ def api_session_navigate(session_id):
     save_sessions(sessions)
 
     question_id = session["questions"][target_index]
-    return jsonify({"question": question_payload(session["bank"], question_id)})
+    notes_store = load_notes()
+    bank_notes = notes_store.get(session["bank"], {})
+    note = session.get("notes", {}).get(str(target_index)) or bank_notes.get(str(question_id)) or ""
+    return jsonify({"question": question_payload(session["bank"], question_id), "note": note})
 
 
 @app.route("/api/sessions/<session_id>/answer", methods=["POST"])
@@ -310,7 +338,8 @@ def api_session_flag(session_id):
 def api_session_note(session_id):
     payload = request.get_json(force=True)
     question_index = str(payload.get("question_index"))
-    note = payload.get("note", "")
+    raw_note = payload.get("note", "")
+    note = raw_note.strip()
 
     sessions = load_sessions()
     session = sessions.get(session_id)
@@ -321,12 +350,29 @@ def api_session_note(session_id):
     if question_index not in answers:
         abort(400, description="Answer required before note")
 
-    session.setdefault("notes", {})[question_index] = note
+    try:
+        idx = int(question_index)
+    except ValueError:
+        abort(400)
+    if idx < 0 or idx >= len(session["questions"]):
+        abort(400)
+
+    question_id = session["questions"][idx]
+    notes_store = load_notes()
+    bank_notes = notes_store.setdefault(session["bank"], {})
+
+    if note:
+        session.setdefault("notes", {})[question_index] = raw_note
+        bank_notes[str(question_id)] = raw_note
+    else:
+        session.get("notes", {}).pop(question_index, None)
+        bank_notes.pop(str(question_id), None)
+    save_notes(notes_store)
     session["last_active"] = now_iso()
     sessions[session_id] = session
     save_sessions(sessions)
 
-    return jsonify({"note": note})
+    return jsonify({"note": raw_note})
 
 
 @app.route("/api/sessions/<session_id>/finish", methods=["POST"])
@@ -344,8 +390,10 @@ def api_session_finish(session_id):
     for idx, question_id in enumerate(session["questions"]):
         idx_str = str(idx)
         user_answer = session.get("answers", {}).get(idx_str)
+        if user_answer is None:
+            continue
         correct_answer = str(questions[question_id].get("answer", "")).strip()
-        if user_answer and user_answer == correct_answer:
+        if user_answer == correct_answer:
             correct_count += 1
         else:
             incorrect_ids.append(question_id)

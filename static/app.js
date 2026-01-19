@@ -6,6 +6,7 @@ const state = {
   sessionStart: null,
   allowFullscreenExit: false,
   fontScale: 1,
+  noteSaveTimer: null,
 };
 
 const elements = {
@@ -32,6 +33,7 @@ const elements = {
   flagQuestion: document.getElementById("flag-question"),
   finishExam: document.getElementById("finish-exam"),
   exitExam: document.getElementById("exit-exam"),
+  backHome: document.getElementById("back-home"),
   progressFill: document.getElementById("progress-fill"),
   statusButton: document.getElementById("status-button"),
   statusModal: document.getElementById("status-modal"),
@@ -330,6 +332,19 @@ const updateNoteState = () => {
   }
 };
 
+const saveCurrentNote = async () => {
+  if (!state.session) return;
+  const idx = String(state.session.current_index);
+  if (!(idx in state.status.answers)) return;
+  const note = elements.noteInput.value;
+  if (state.status.notes[idx] === note) return;
+  await fetchJSON(`/api/sessions/${state.sessionId}/note`, {
+    method: "POST",
+    body: JSON.stringify({ question_index: idx, note }),
+  });
+  state.status.notes[idx] = note;
+};
+
 const updateFlagButton = () => {
   const idx = String(state.session.current_index);
   const flagged = state.status.flags[idx];
@@ -337,12 +352,21 @@ const updateFlagButton = () => {
 };
 
 const navigateTo = async (index) => {
+  await saveCurrentNote();
   const data = await fetchJSON(`/api/sessions/${state.sessionId}/navigate`, {
     method: "POST",
     body: JSON.stringify({ question_index: index }),
   });
   state.session.current_index = index;
   state.question = data.question;
+  if (typeof data.note === "string") {
+    const idx = String(index);
+    if (data.note) {
+      state.status.notes[idx] = data.note;
+    } else {
+      delete state.status.notes[idx];
+    }
+  }
   renderQuestion();
   updateProgress();
 };
@@ -380,6 +404,20 @@ const exitSession = async () => {
   if (document.fullscreenElement) {
     await document.exitFullscreen();
   }
+  showView("home");
+  await loadSessions();
+};
+
+const returnToHome = async () => {
+  await saveCurrentNote();
+  state.allowFullscreenExit = true;
+  if (document.fullscreenElement) {
+    await document.exitFullscreen();
+  }
+  state.sessionId = null;
+  state.session = null;
+  state.question = null;
+  state.status = { answers: {}, flags: {}, notes: {} };
   showView("home");
   await loadSessions();
 };
@@ -467,15 +505,18 @@ elements.flagQuestion.addEventListener("click", async () => {
   updateFlagButton();
 });
 
-elements.noteInput.addEventListener("change", async () => {
-  const idx = String(state.session.current_index);
-  if (!(idx in state.status.answers)) return;
-  const note = elements.noteInput.value;
-  await fetchJSON(`/api/sessions/${state.sessionId}/note`, {
-    method: "POST",
-    body: JSON.stringify({ question_index: idx, note }),
-  });
-  state.status.notes[idx] = note;
+elements.noteInput.addEventListener("input", () => {
+  if (!state.session) return;
+  if (state.noteSaveTimer) {
+    clearTimeout(state.noteSaveTimer);
+  }
+  state.noteSaveTimer = setTimeout(() => {
+    saveCurrentNote().catch(() => {});
+  }, 500);
+});
+
+elements.noteInput.addEventListener("blur", () => {
+  saveCurrentNote().catch(() => {});
 });
 
 elements.statusButton.addEventListener("click", async () => {
@@ -495,6 +536,10 @@ elements.finishExam.addEventListener("click", async () => {
 elements.exitExam.addEventListener("click", async () => {
   if (!confirm("Exit the session? Unsaved progress will remain unless terminated.")) return;
   await exitSession();
+});
+
+elements.backHome.addEventListener("click", async () => {
+  await returnToHome();
 });
 
 elements.fullscreenToggle.addEventListener("click", async () => {
