@@ -117,7 +117,16 @@ const loadSessions = async () => {
     resume.className = "button primary";
     resume.textContent = "Resume";
     resume.addEventListener("click", () => loadSession(session.id));
+    const remove = document.createElement("button");
+    remove.className = "button danger";
+    remove.textContent = "Delete";
+    remove.addEventListener("click", async () => {
+      if (!confirm("Delete this session?")) return;
+      await fetchJSON(`/api/sessions/${session.id}`, { method: "DELETE" });
+      await loadSessions();
+    });
     actions.appendChild(resume);
+    actions.appendChild(remove);
     card.appendChild(actions);
     elements.sessionList.appendChild(card);
   });

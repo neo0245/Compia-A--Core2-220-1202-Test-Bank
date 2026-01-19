@@ -1,3 +1,4 @@
+import base64
 import json
 import os
 import random
@@ -10,8 +11,8 @@ SESSIONS_PATH = os.path.join(DATA_DIR, "sessions.json")
 HISTORY_PATH = os.path.join(DATA_DIR, "history.json")
 
 QUESTION_BANKS = {
-    "comptia": os.path.join(BASE_DIR, "comptia_questions_real.json"),
-    "quiz": os.path.join(BASE_DIR, "quiz_questions.json"),
+    "comptia": os.path.join(BASE_DIR, "comptia_questions_real.b64"),
+    "quiz": os.path.join(BASE_DIR, "quiz_questions.b64"),
 }
 
 app = Flask(__name__)
@@ -43,8 +44,10 @@ def load_questions(bank_id):
     path = QUESTION_BANKS.get(bank_id)
     if not path or not os.path.exists(path):
         abort(404, description="Question bank not found")
-    with open(path, "r", encoding="utf-8") as f:
-        raw = json.load(f)
+    with open(path, "rb") as f:
+        encoded = f.read()
+    decoded = base64.b64decode(encoded)
+    raw = json.loads(decoded.decode("utf-8"))
     questions = []
     for idx, item in enumerate(raw):
         questions.append(
@@ -381,6 +384,16 @@ def api_session_terminate(session_id):
     sessions[session_id] = session
     save_sessions(sessions)
     return jsonify({"terminated": True})
+
+
+@app.route("/api/sessions/<session_id>", methods=["DELETE"])
+def api_session_delete(session_id):
+    sessions = load_sessions()
+    if session_id not in sessions:
+        abort(404)
+    del sessions[session_id]
+    save_sessions(sessions)
+    return jsonify({"deleted": True})
 
 
 @app.route("/api/sessions/<session_id>/status", methods=["GET"])
