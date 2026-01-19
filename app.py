@@ -7,8 +7,8 @@ from flask import Flask, jsonify, render_template, request, abort
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
-SESSIONS_PATH = os.path.join(DATA_DIR, "sessions.json")
-HISTORY_PATH = os.path.join(DATA_DIR, "history.json")
+SESSIONS_PATH = os.path.join(DATA_DIR, "sessions.b64")
+HISTORY_PATH = os.path.join(DATA_DIR, "history.b64")
 
 QUESTION_BANKS = {
     "comptia": os.path.join(BASE_DIR, "comptia_questions_real.b64"),
@@ -21,23 +21,27 @@ app = Flask(__name__)
 def ensure_data_files():
     os.makedirs(DATA_DIR, exist_ok=True)
     if not os.path.exists(SESSIONS_PATH):
-        with open(SESSIONS_PATH, "w", encoding="utf-8") as f:
-            json.dump({}, f)
+        save_json(SESSIONS_PATH, {})
     if not os.path.exists(HISTORY_PATH):
-        with open(HISTORY_PATH, "w", encoding="utf-8") as f:
-            json.dump([], f)
+        save_json(HISTORY_PATH, [])
 
 
 def load_json(path, default):
     if not os.path.exists(path):
         return default
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    with open(path, "rb") as f:
+        encoded = f.read()
+    if not encoded:
+        return default
+    decoded = base64.b64decode(encoded)
+    return json.loads(decoded.decode("utf-8"))
 
 
 def save_json(path, payload):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=True, indent=2)
+    raw = json.dumps(payload, ensure_ascii=True, indent=2).encode("utf-8")
+    encoded = base64.b64encode(raw)
+    with open(path, "wb") as f:
+        f.write(encoded)
 
 
 def load_questions(bank_id):
