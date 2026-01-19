@@ -1,0 +1,1570 @@
+[
+    {
+        "question_no": "1",
+        "question_field": "Core 2: 4.7 Given a scenario, use proper communication\u00a0techniques and professionalism.",
+        "question_type": "simple options",
+        "question_text": "One of the best ways to gather information about a problem is to do what with a customer?",
+        "options": [
+            "A. Spy on",
+            "B. Listen",
+            "C. Accuse",
+            "D. Blame"
+        ],
+        "answer": "B",
+        "explanation": "Listen actively to customers to get good information and establish a working relationship. Accusations, spying, and blaming are not effective troubleshooting techniques."
+    },
+    {
+        "question_no": "2",
+        "question_field": "Core 2: 4.7 Given a scenario, use proper communication\u00a0techniques and professionalism.",
+        "question_type": "simple options",
+        "question_text": "Technicians should avoid using this:",
+        "options": [
+            "A. Jargon",
+            "B. Screwdrivers",
+            "C. Power meters",
+            "D. Plastic tweezers"
+        ],
+        "answer": "A",
+        "explanation": "Jargon can confuse customers who don't have a background in computer technology.\u00a0Screwdrivers, power meters, plastic tweezers and other tools are necessary for technicians to diagnose and repair equipment."
+    },
+    {
+        "question_no": "3",
+        "question_field": "Core 2: 4.7 Given a scenario, use proper communication\u00a0techniques and professionalism.",
+        "question_type": "simple options",
+        "question_text": "A technician should avoid this type of behavior when dealing with customers.",
+        "options": [
+            "A. Professional",
+            "B. Friendly",
+            "C. Confident",
+            "D. Defensive"
+        ],
+        "answer": "D",
+        "explanation": "Defensive postures cause customers to mistrust techs.\u00a0Techs should be friendly, confident, and professional in all dealings with customers."
+    },
+    {
+        "question_no": "4",
+        "question_field": "Core 2: 4.7 Given a scenario, use proper communication\u00a0techniques and professionalism.",
+        "question_type": "simple options",
+        "question_text": "Presenting a professional appearance means matching the required attire of the given environment.",
+        "options": [
+            "A. True",
+            "B. False",
+            "C. ",
+            "D. "
+        ],
+        "answer": "A",
+        "explanation": "You should always strive to match the attire of the environment that you are working in."
+    },
+    {
+        "question_no": "5",
+        "question_field": "Core 2: 4.4 Given a scenario, use common safety procedures.",
+        "question_type": "simple options",
+        "question_text": "What class of fire extinguisher is best for electronic fires?",
+        "options": [
+            "A. A",
+            "B. B",
+            "C. C",
+            "D. D"
+        ],
+        "answer": "C",
+        "explanation": "Class C fire extinguishers are designed to be used in fires involving electronics - think \"C\" for computer. A, B, and D are not the best choices for electrical fires."
+    },
+    {
+        "question_no": "6",
+        "question_field": "Core 2: 1.10 - Given a scenario, install applications according to requirements Core 2: 1.1 - Explain common operating system (OS) types and their purposes Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment.",
+        "question_type": "simple options",
+        "question_text": "Which software is used by the operating system to control computer components?",
+        "options": [
+            "A. Kernel",
+            "B. Process",
+            "C. Device drivers",
+            "D. iOS"
+        ],
+        "answer": "C",
+        "explanation": "Device drivers are programs that allow operating systems to control system devices. The kernel is the core of an operating system. iOS is an operating system. A process is a running program."
+    },
+    {
+        "question_no": "7",
+        "question_field": "Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "This Windows feature protects users from performing potentially dangerous actions.",
+        "options": [
+            "A. Root",
+            "B. UAC (User Account Control)",
+            "C. Administrator",
+            "D. Superuser"
+        ],
+        "answer": "B",
+        "explanation": "UAC prevents usage of powerful programs by users with limited permissions.\u00a0Root is the name of a Linux administrative account.\u00a0Administrator is the name of a Windows administrative account. Superuser is the general term for a Linux or Unix administrative account."
+    },
+    {
+        "question_no": "8",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes",
+        "question_type": "simple options",
+        "question_text": "Which operating system provides single sign-on and a domain controller?",
+        "options": [
+            "A. iOS",
+            "B. Linux",
+            "C. Windows Server",
+            "D. SAMBA"
+        ],
+        "answer": "C",
+        "explanation": "Windows Server creates and manages domains and single sign-on services.\u00a0iOS and Linux do not provide domains or single sign-on services. SAMBA is a file sharing program."
+    },
+    {
+        "question_no": "9",
+        "question_field": "Core 2: 1.8 - Explain common features and tools of the macOS/desktop operating system",
+        "question_type": "simple options",
+        "question_text": "The bar at the bottom of a macOS desktop used to select and launch programs is called what?",
+        "options": [
+            "A. Finder",
+            "B. Dock",
+            "C. Terminal",
+            "D. Apple menu"
+        ],
+        "answer": "B",
+        "explanation": "The correct answer is the Dock.\u00a0Terminal is the macOS command-line interface. The Apple menu is found at the top left corner of the screen.\u00a0Finder is a file-management program."
+    },
+    {
+        "question_no": "10",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes Core 2: 1.9 - Identify common features and tools of the Linux client/desktop operating system",
+        "question_type": "simple options",
+        "question_text": "Linux comes in different variations known as what?",
+        "options": [
+            "A. Distros",
+            "B. Desktops",
+            "C. Ubuntus",
+            "D. Mints"
+        ],
+        "answer": "A",
+        "explanation": "Distros are different versions of Linux. Ubuntu and Mint are themselves Linux distros. Desktop is the main screen of a Linux system."
+    },
+    {
+        "question_no": "11",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes Core 2: 1.3 - Compare and contrast basic features of Microsoft Windows editions",
+        "question_type": "simple options",
+        "question_text": "Windows 11 has more robust hardware requirements for installation, which includes:",
+        "options": [
+            "A. 16GB of free RAM",
+            "B. NetBIOS v6",
+            "C. Trusted Protection Module 2.0 (TPM 2.0)",
+            "D. USB optical drive"
+        ],
+        "answer": "C",
+        "explanation": "TPM 2.0 is required to run Windows 11, as an important building block for security-related features such as Windows Hello and Bitlocker."
+    },
+    {
+        "question_no": "12",
+        "question_field": "Core 2:\u00a04.5 Summarize environmental impacts and local\u00a0environmental controls.",
+        "question_type": "simple options",
+        "question_text": "Which device protects only from power spikes?",
+        "options": [
+            "A. UPS",
+            "B. Power supply unit (PSU)",
+            "C. Heat sink",
+            "D. Surge suppressor"
+        ],
+        "answer": "D",
+        "explanation": "A surge suppressor only protects devices from power spikes. A UPS protects from spikes and sags/brownouts. A heat sink carries heat away from hot components such as a CPU. A power supply has a built-in surge suppressor, but it also provides power to the computer."
+    },
+    {
+        "question_no": "13",
+        "question_field": "Core 1: 3.5 - Given a scenario, install and configure motherboards, central processing units (CPUs), and add-on cards Core 2: 4.5 - Summarize environmental impacts and local environmental controls.",
+        "question_type": "simple options",
+        "question_text": "Which of the following is not provided by a power supply?",
+        "options": [
+            "A. Surge suppression",
+            "B. Sag protection",
+            "C. Power good signal to the computer",
+            "D. Voltage to the CPU and motherboard"
+        ],
+        "answer": "B",
+        "explanation": "Power supplies cannot protect from sags/brownouts. All of the other choices are performed by a power supply."
+    },
+    {
+        "question_no": "14",
+        "question_field": "Core 1: 3.4 - Compare and contrast storage devices Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment.",
+        "question_type": "simple options",
+        "question_text": "Which cannot be set as the first boot choice?",
+        "options": [
+            "A. USB Drive",
+            "B. Optical Drive",
+            "C. M.2 Drive",
+            "D. UEFI"
+        ],
+        "answer": "D",
+        "explanation": "UEFI is a firmware interface, not a boot device. Any of the other choices can be set as a boot device."
+    },
+    {
+        "question_no": "15",
+        "question_field": "Core 1: 3.4 - Compare and contrast storage devices Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment.",
+        "question_type": "simple options",
+        "question_text": "Which is a likely reason for a computer to fail to boot?",
+        "options": [
+            "A. Boot order set to bootable optical media",
+            "B. System cannot boot from USB drive",
+            "C. Boot order changed to a non-bootable device",
+            "D. System set to boot from SSD"
+        ],
+        "answer": "C",
+        "explanation": "A computer cannot boot from a non-bootable device or media. USB drives, optical drives, and SSDs and are all valid boot devices (but will only boot if they contain a working, properly-created bootable drive image)."
+    },
+    {
+        "question_no": "16",
+        "question_field": "Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment.",
+        "question_type": "simple options",
+        "question_text": "Linux uses what type of partition to compensate for low available memory conditions?",
+        "options": [
+            "A. Personal",
+            "B. Recovery",
+            "C. Operating system",
+            "D. Swap"
+        ],
+        "answer": "D",
+        "explanation": "Linux uses swap partitions as virtual memory when needed. Personal partitions are used to hold programs and files. Operating system partitions hold the bootable OS and utilities. Recovery partitions are used to restore a damaged OS."
+    },
+    {
+        "question_no": "17",
+        "question_field": "Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment. Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools",
+        "question_type": "simple options",
+        "question_text": "Which is found at LBA 0?",
+        "options": [
+            "A. Master boot record",
+            "B. OS partition",
+            "C. Power-on self test (POST)",
+            "D. Windows swap file"
+        ],
+        "answer": "A",
+        "explanation": "The master boot record (MBR) is found at LBA 0. The OS partition could be anywhere on the drive.\u00a0The Windows swap file is stored in the root of the C: drive, but not at LBA 0. POST is located in the UEFI/BIOS chip."
+    },
+    {
+        "question_no": "18",
+        "question_field": "Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment. Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools",
+        "question_type": "simple options",
+        "question_text": "What is the first GPT header called?",
+        "options": [
+            "A. Main",
+            "B. Secondary",
+            "C. Primary",
+            "D. Tertiary"
+        ],
+        "answer": "C",
+        "explanation": "The first GPT header is the primary GPT header. The secondary GPT header is the backup, or second, GPT header. Main and tertiary are not terms associated with the GPT header."
+    },
+    {
+        "question_no": "19",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes",
+        "question_type": "simple options",
+        "question_text": "Which does formatting a drive NOT do?",
+        "options": [
+            "A. Test the blocks",
+            "B. Save existing data",
+            "C. Create the file index",
+            "D. Create a blank root"
+        ],
+        "answer": "B",
+        "explanation": "Formatting a drive does not save existing data.\u00a0Formatting does, however: test blocks, create a file index, and create a blank root folder/directory."
+    },
+    {
+        "question_no": "20",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes",
+        "question_type": "simple options",
+        "question_text": "The main file system used by current versions of Windows is what?",
+        "options": [
+            "A. NTFS",
+            "B. FAT32",
+            "C. GPT",
+            "D. MBR"
+        ],
+        "answer": "A",
+        "explanation": "NTFS is the standard Windows file system. FAT32 was once the standard in much older versions of Windows. GPT and MBR are partition table types, not file systems."
+    },
+    {
+        "question_no": "21",
+        "question_field": "Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment.",
+        "question_type": "simple options",
+        "question_text": "Dynamic disks support drive mirroring. What happens if one of the mirrored drives fails?",
+        "options": [
+            "A. The system fails until the failed drive is replaced",
+            "B. The system automatically repairs the failed drive",
+            "C. The system selects an empty drive as a \"hot spare\" to replace the failed drive",
+            "D. The system continues to function with no data loss"
+        ],
+        "answer": "D",
+        "explanation": "The system will function with no data loss. The failed drive must be manually replaced later.\u00a0The other options are incorrect."
+    },
+    {
+        "question_no": "22",
+        "question_field": "Core 1: 3.4 - Compare and contrast storage devices Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools",
+        "question_type": "simple options",
+        "question_text": "Which is NOT a Storage Solution RAID configuration?",
+        "options": [
+            "A. Parity",
+            "B. Simple",
+            "C. Two-way mirror",
+            "D. RAID 10"
+        ],
+        "answer": "D",
+        "explanation": "Storage Spaces does not have a RAID 10 configuration. Simple (JBOD), two-way mirror, and parity (RAID 5) are all supported configurations under Storage Spaces."
+    },
+    {
+        "question_no": "23",
+        "question_field": "Core 1: 3.4 - Compare and contrast storage devices Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools",
+        "question_type": "simple options",
+        "question_text": "What operates a software RAID solution?",
+        "options": [
+            "A. A RAID expansion card",
+            "B. A RAID controller built into the motherboard",
+            "C. The OS and CPU",
+            "D. The drives in the array"
+        ],
+        "answer": "C",
+        "explanation": "Software RAID is controlled by the operating system and the CPU. RAID expansion cards and motherboard-based RAID controllers are examples of hardware RAID. Drives don't have built-in RAID controllers."
+    },
+    {
+        "question_no": "24",
+        "question_field": "Core 1: 3.5 - Given a scenario, install and configure motherboards, central processing units (CPUs), and add-on cards Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "What kind of chip holds a BitLocker key?",
+        "options": [
+            "A. TPM",
+            "B. MPT",
+            "C. TMP",
+            "D. PTM"
+        ],
+        "answer": "A",
+        "explanation": "A Trusted Platform Module (TPM) chip holds a BitLocker key. The rest are made-up terms."
+    },
+    {
+        "question_no": "25",
+        "question_field": "Core 1: 1.2 - Compare and contrast accessories and connectivity options for mobile devices Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools",
+        "question_type": "simple options",
+        "question_text": "Each version of USB in a computer has its own what?",
+        "options": [
+            "A. USB hub",
+            "B. USB controller",
+            "C. USB peripheral",
+            "D. USB Type-B connector"
+        ],
+        "answer": "B",
+        "explanation": "Each version of USB in a computer has its own USB controller which is then connected to a USB hub.\u00a0USB Type-B connectors connect to a downstream peripheral (such as a printer). A USB hub is a circuit or device with one or more upstream USB ports. Each version of USB does not have its own peripheral."
+    },
+    {
+        "question_no": "26",
+        "question_field": "Core 1: 3.1 - Compare and contrast display components and attributes. Core 1: 3.2 - Summarize basic cable types and their connectors, features, and purposes Core 2: 4.9 - Given a scenario, use remote access technologies",
+        "question_type": "simple options",
+        "question_text": "Videoconferencing software allows viewing of remote desktops through a feature known as _____________.",
+        "options": [
+            "A. pixelated productivity",
+            "B. remote ready",
+            "C. world workgroup",
+            "D. screen sharing"
+        ],
+        "answer": "D",
+        "explanation": "Screen sharing is a fantastic feature included in most video conferencing tools that allows us to view and sometimes interact with another user\u2019s desktop. It is highly useful when someone needs to display and collaborate information with many users at once.\u00a0The other terms are made up."
+    },
+    {
+        "question_no": "27",
+        "question_field": "Core 1: 3.6 - Given a scenario, install the appropriate power supply Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools Core 2: 2.1 - Summarize various security measures and their purposes. Core 2: 2.3 - Compare and contrast wireless security protocols and authentication methods Core 2: 2.8 - Given a scenario, apply common methods for securing mobile devices Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues",
+        "question_type": "simple options",
+        "question_text": "What is the minimum RAM requirement to install and run Windows 11?",
+        "options": [
+            "A. 1GB",
+            "B. 4GB",
+            "C. 8GB",
+            "D. 16GB"
+        ],
+        "answer": "B",
+        "explanation": "All versions of Windows 11 require 4GB of RAM to run. If you are unsure if your system meets the minimum requirements to run Windows 11, you can run the PC Health Check utility located in your Windows Update panel."
+    },
+    {
+        "question_no": "28",
+        "question_field": "Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment. Core 2: 1.10 - Given a scenario, install applications according to requirements Core 2: 2.4 - Summarize types of malware and tools/methods for detection, removal, and prevention",
+        "question_type": "simple options",
+        "question_text": "Aside from an optical disc, which storage device is best for creating\u00a0portable bootable media from an ISO image?",
+        "options": [
+            "A. Network interface card",
+            "B. USB flash drive",
+            "C. Hard drive",
+            "D. SSD"
+        ],
+        "answer": "B",
+        "explanation": "USB flash drives are great for bootable media because they're super portable and most computers have USB ports. You could make one from a hard drive or SSD, but you'd have to go through the trouble of installing it or carrying an external drive enclosure. You can't make bootable media out of a NIC (though it is possible to boot from a network image with PXE)."
+    },
+    {
+        "question_no": "29",
+        "question_field": "Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment. Core 2: 1.10 - Given a scenario, install applications according to requirements Core 2: 2.4 - Summarize types of malware and tools/methods for detection, removal, and prevention",
+        "question_type": "simple options",
+        "question_text": "How can a user access the contents of an ISO file without first creating bootable media?",
+        "options": [
+            "A. Open the ISO file with Windows explorer",
+            "B. Use the WinRE environment",
+            "C. Copy the ISO to a thumb drive",
+            "D. Mount the ISO file"
+        ],
+        "answer": "D",
+        "explanation": "Mounting an ISO file makes its contents accessible.\u00a0The WinRE environment is used to create recovery drives. Simply copying an ISO file to a thumb drive won't make the contents of the image accessible. Windows explorer cannot open or access ISO files."
+    },
+    {
+        "question_no": "30",
+        "question_field": "Core 2: 1.3 - Compare and contrast basic features of Microsoft Windows editions Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment.",
+        "question_type": "simple options",
+        "question_text": "Windows can be deployed on multiple machines across a network simultaneously through the use of a preconfigured copy of a disk known as a/an:",
+        "options": [
+            "A. thumb drive",
+            "B. virtual machine",
+            "C. bootloader",
+            "D. image"
+        ],
+        "answer": "D",
+        "explanation": "We can install Windows across multiple systems simultaneously through the use of image deployment. A thumb drive installation would require carrying the thumb drive to every individual system. A virtual machine would work on a single computer, but not across a network, and wouldn't necessarily include an installed OS. Bootloader is incorrect."
+    },
+    {
+        "question_no": "31",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment. Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools Core 2: 1.6 - Given a scenario, configure Microsoft Windows settings Core 2: 2.4 - Summarize types of malware and tools/methods for detection, removal, and prevention Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues Core 2: 4.3 -Given a scenario, implement workstation backup and recovery methods",
+        "question_type": "simple options",
+        "question_text": "A technician needs what to complete the post-installation tasks for a Windows installation?",
+        "options": [
+            "A. Motherboard drivers",
+            "B. Hardware compatibility list",
+            "C. An ISO of the operating system",
+            "D. CPU upgrade"
+        ],
+        "answer": "A",
+        "explanation": "Motherboard and other hardware drivers are needed to complete a Windows installation. The HCL should be checked as part of the pre-installation process. An ISO should be used to create a bootable flash drive or optical media before installing Windows. Hardware upgrades and changes should be accomplished before beginning an installation."
+    },
+    {
+        "question_no": "32",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment. Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools Core 2: 1.6 - Given a scenario, configure Microsoft Windows settings Core 2: 2.4 - Summarize types of malware and tools/methods for detection, removal, and prevention Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues Core 2: 4.3 -Given a scenario, implement workstation backup and recovery methods",
+        "question_type": "simple options",
+        "question_text": "Which task does Windows perform during an installation?",
+        "options": [
+            "A. Install anti-malware software",
+            "B. Create a recovery drive",
+            "C. Update all drivers",
+            "D. Install a basic video driver"
+        ],
+        "answer": "D",
+        "explanation": "Windows installs a basic video driver.\u00a0All of the other tasks are post-installation tasks to be performed by the installer or user."
+    },
+    {
+        "question_no": "33",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment.",
+        "question_type": "simple options",
+        "question_text": "Some editions of Linux can run as a ______, which allows you to fully utilize the operating system without having to first install it.",
+        "options": [
+            "A. boot DVD",
+            "B. live OS",
+            "C. Ghost Protocol Ubuntu",
+            "D. live CD"
+        ],
+        "answer": "D",
+        "explanation": "A live CD allows a user to run an operating system for any purpose without having to install any software or make any changes to a system's configuration. As DVD and CD drives are becoming less popular, live USBs have started to take their place."
+    },
+    {
+        "question_no": "34",
+        "question_field": "Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop",
+        "question_type": "simple options",
+        "question_text": "_______ are tasks handled by Windows and needed for the operating system to function.",
+        "options": [
+            "A. Services",
+            "B. Dynamic Link Libraries",
+            "C. Applications",
+            "D. Processes"
+        ],
+        "answer": "A",
+        "explanation": "Services run without user intervention and may even continue to run after a user has logged off of the system. Servces run in the background and perform crucial tasks that the Windows operating system needs to function properly."
+    },
+    {
+        "question_no": "35",
+        "question_field": "Core 2: 1.6 - Given a scenario, configure Microsoft Windows settings",
+        "question_type": "simple options",
+        "question_text": "Where would one go within the Control Panel to find the settings for features such as narrator, magnifier, or color filters?",
+        "options": [
+            "A. System",
+            "B. Privacy",
+            "C. Ease of Access",
+            "D. Personalization"
+        ],
+        "answer": "C",
+        "explanation": "The Ease of Access section contains settings that let you adjust various hearing, vision, and interaction elements within Windows. It is also where you will find the narrator and magnifier tools."
+    },
+    {
+        "question_no": "36",
+        "question_field": "No exam-specific objectives",
+        "question_type": "simple options",
+        "question_text": "Steve has just realized that he spelled his username incorrectly when setting up his PC. Which section in Windows Settings does he need to visit in order to change his username?",
+        "options": [
+            "A. Personalization",
+            "B. Privacy & Security",
+            "C. Accounts",
+            "D. Network & Internet"
+        ],
+        "answer": "C",
+        "explanation": "The Accounts section within Windows Settings allows a user to add, edit, or remove users as well as change sign-in options."
+    },
+    {
+        "question_no": "37",
+        "question_field": "Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools",
+        "question_type": "simple options",
+        "question_text": "A user can create a custom list of administrative tools using snap-ins within what Microsoft framework?",
+        "options": [
+            "A. Control Panel",
+            "B. Microsoft Management Console (MMC)",
+            "C. Windows Settings",
+            "D. Computer Management"
+        ],
+        "answer": "B",
+        "explanation": "The Microsoft Management Console (MMC) offers a framework in which multiple administrative tools can be added to a single management interface. You can even use MMC to create custom toolsets and distribute to others for use on their machines."
+    },
+    {
+        "question_no": "38",
+        "question_field": "Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools",
+        "question_type": "simple options",
+        "question_text": "Which is not a root key in the registry?",
+        "options": [
+            "A. HKEY_CLASSES_ROOT",
+            "B. HKEY_CURRENT_USER",
+            "C. HKEY_LOCAL_MACHINE",
+            "D. HKEY_CURRENT_MACHINE"
+        ],
+        "answer": "D",
+        "explanation": "HKEY_CURRENT_MACHINE is not a root key in the registry.\u00a0All of the other choices are valid registry root keys."
+    },
+    {
+        "question_no": "39",
+        "question_field": "Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools",
+        "question_type": "simple options",
+        "question_text": "The registry files are stored in the C:\\Windows\\System32\\___________ folder.",
+        "options": [
+            "A. regback",
+            "B. config",
+            "C. registry",
+            "D. reg"
+        ],
+        "answer": "B",
+        "explanation": "The registry files are stored in the C:\\Windows\\System32\\config folder.\u00a0The other choices are incorrect."
+    },
+    {
+        "question_no": "40",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "Which Windows file system has the most security features?",
+        "options": [
+            "A. macOS",
+            "B. Shares",
+            "C. NTFS",
+            "D. FAT"
+        ],
+        "answer": "C",
+        "explanation": "NTFS supports granular file security options. FAT has no security. macOS is a full operating system maintained by Apple. Shares is not a file system."
+    },
+    {
+        "question_no": "41",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "Which statement about groups is true?",
+        "options": [
+            "A. If a user is a member of a group, the user account cannot have any individual permission assignments.",
+            "B. Permissions granted to a group apply to all of the members of the group.",
+            "C. Permissions granted to a user apply to all co-members of any groups that the user is a member of.",
+            "D. Users can be members of groups and groups can be members of users."
+        ],
+        "answer": "B",
+        "explanation": "Group permissions apply to all members of the group. None of the other statements are true."
+    },
+    {
+        "question_no": "42",
+        "question_field": "Core 2: 1.6 - Given a scenario, configure Microsoft Windows settings Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "How does the administrator account receive its power?",
+        "options": [
+            "A. By being a member of the Power Users group.",
+            "B. By being a member of the Administrators group.",
+            "C. By changing its account type from standard user to administrator.",
+            "D. By having the Full Control NTFS permission for the root of the C: drive."
+        ],
+        "answer": "B",
+        "explanation": "Administrators get their authority from being a member of the Administrators group. The Power Users group has less power than the Administrators group. NTFS permissions only control access to the file system, not user accounts or system configurations. A standard user cannot change its account type to administrator."
+    },
+    {
+        "question_no": "43",
+        "question_field": "Core 2: 1.6 - Given a scenario, configure Microsoft Windows settings Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "Which is not a way to create user accounts?",
+        "options": [
+            "A. Settings",
+            "B. Control Panel",
+            "C. Local Users and Groups",
+            "D. User Creation Tool"
+        ],
+        "answer": "D",
+        "explanation": "There is no Windows utility named User Creation Tool. Settings, Control Panel, and Local Users and Groups all directly or indirectly enable creating user accounts."
+    },
+    {
+        "question_no": "44",
+        "question_field": "Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "Which file action is not controlled by the NTFS \"modify\" permission?",
+        "options": [
+            "A. Read a file",
+            "B. Write to a file",
+            "C. Delete a file",
+            "D. Execute a program file"
+        ],
+        "answer": "D",
+        "explanation": "Modify does not allow program execution. The modify permission allows a user to read, write or delete a file."
+    },
+    {
+        "question_no": "45",
+        "question_field": "Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "When creating a file in Linux or macOS, which of the following does not receive any permissions?",
+        "options": [
+            "A. User",
+            "B. Administrator",
+            "C. Group",
+            "D. Everyone"
+        ],
+        "answer": "B",
+        "explanation": "The administrator does not receive a default permission to newly created files (unless the administrator is the one that created the file). Newly created files get permissions for the user, group, and everyone else."
+    },
+    {
+        "question_no": "46",
+        "question_field": "Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "On Linux, which is not a file permission?",
+        "options": [
+            "A. Read",
+            "B. Write",
+            "C. eXecute",
+            "D. Delete"
+        ],
+        "answer": "D",
+        "explanation": "Delete is not a file permission on Linux. Read (R), Write (W), and Execute (X) are the three file permissions on Linux."
+    },
+    {
+        "question_no": "47",
+        "question_field": "Core 2: 1.6 - Given a scenario, configure Microsoft Windows settings Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "Which part of the File Explorer interface displays frequently used files and folders?",
+        "options": [
+            "A. Navigation pane",
+            "B. Details pane",
+            "C. Quick Access",
+            "D. This PC"
+        ],
+        "answer": "C",
+        "explanation": "The Quick Access entry within the Navigation pane shows frequently used files and folders. The Navigation pane shows all navigable aspects of the file system. The Details pane shows information about a selected file or folder. This PC shows any installed and mapped drives."
+    },
+    {
+        "question_no": "48",
+        "question_field": "Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop. Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings",
+        "question_type": "simple options",
+        "question_text": "Which is an accurate UNC in Windows?",
+        "options": [
+            "A. //server/share",
+            "B. //server\\share",
+            "C. \\\\server/share",
+            "D. \\\\server\\share"
+        ],
+        "answer": "D",
+        "explanation": "Universal Naming Convention (UNC) for Windows starts with a double backslash followed by a server or host name, then a single backslash followed by the resource (such as a share) name or path. The other choices all include forward slashes (also called whacks) which are not part of UNC."
+    },
+    {
+        "question_no": "49",
+        "question_field": "Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop Core 2: 2.1 - Summarize various security measures and their purposes. Core 2: 2.7 - Given a scenario, apply workstation security options and hardening techniques.",
+        "question_type": "simple options",
+        "question_text": "Local Security Policy settings apply to which of these?",
+        "options": [
+            "A. A single computer",
+            "B. All of the computers within a workgroup",
+            "C. All of the computers on a domain",
+            "D. All of the computers that are logged into the same server"
+        ],
+        "answer": "A",
+        "explanation": "Local security policy sets policies for a single computer. All of the other answers are incorrect."
+    },
+    {
+        "question_no": "50",
+        "question_field": "Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop Core 2: 2.1 - Summarize various security measures and their purposes. Core 2: 2.7 - Given a scenario, apply workstation security options and hardening techniques.",
+        "question_type": "simple options",
+        "question_text": "Which is not set in the Account Lockout Policy settings?",
+        "options": [
+            "A. Lockout threshold",
+            "B. Minimum password length",
+            "C. Lockout duration",
+            "D. Reset Lockout counter"
+        ],
+        "answer": "B",
+        "explanation": "Minimum password length is set in the Account Policies settings. All of the other choices are set in the Account Lockout Policy settings."
+    },
+    {
+        "question_no": "51",
+        "question_field": "Core 2: 1.1 - Explain common operating system (OS) types and their purposes Core 2: 2.5 - Compare and contrast common social engineering attacks, threats, and vulnerabilities Core 2: 3.4 - Given a scenario, troubleshoot common personal computer (PC) security issues",
+        "question_type": "simple options",
+        "question_text": "Operating systems that have reached their _______ are typically not eligible to receive feature and security updates.",
+        "options": [
+            "A. Last Upgrade Cycle (LUC)",
+            "B. demise of normal functioning (DNF)",
+            "C. final countdown clock (FCC)",
+            "D. end-of-life (EOL)"
+        ],
+        "answer": "D",
+        "explanation": "Every piece of technology will eventually become obsolete, and vendors use the term end-of-life (EOL) to refer to something that has reaced the end of its useful life and consequently will no longer be sold, marketed, supported, or upgraded. The other terms are made up."
+    },
+    {
+        "question_no": "52",
+        "question_field": "Core 2: 1.10 - Given a scenario, install applications according to requirements Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS problems.",
+        "question_type": "simple options",
+        "question_text": "______________ is a mandatory component of Windows that aims to improve the security of systems by limiting the permissions that normal application software runs as, until authorized by an administrator.",
+        "options": [
+            "A. Software Limitation Algorithm (SLA)",
+            "B. Minimum Encouraged Elevated Permissions (MEEP)",
+            "C. User Account Control (UAC)",
+            "D. Application and Program Control (APC)"
+        ],
+        "answer": "C",
+        "explanation": "User account control (UAC) functions by isolating low-privilege and high-privilege running processes and requiring administrator approval prior to an application's privilege escalation. The other terms are made up."
+    },
+    {
+        "question_no": "53",
+        "question_field": "Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment. Core 2: 1.8 - Explain common features and tools of the macOS/desktop operating system Core 2: 1.9 - Identify common features and tools of the Linux client/desktop operating system Core 2: 4.3 - Given a scenario, implement workstation backup and recovery methods.",
+        "question_type": "simple options",
+        "question_text": "Why are users strongly encouraged to utilize the 3-2-1 system when backing up crucial data?",
+        "options": [
+            "A. It simplifies the data archival process",
+            "B. It contains solid guidelines to help prevent against complete data loss",
+            "C. It gives users three tries to access the data and then locks them out of their account",
+            "D. 3-2-1 helps speed up data recovery after an intrusion"
+        ],
+        "answer": "B",
+        "explanation": "The 3-2-1 rule states that you should 3 copies of your backed up data, across two or more media types (CD, DVD, USB), and at least one copy of your backup should be hosted offsite, such as in the cloud. Following this rule helps ensure that you always have a complete backup available no matter the reason for the outage."
+    },
+    {
+        "question_no": "54",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 4.8 - Explain the basics of scripting.",
+        "question_type": "simple options",
+        "question_text": "Which is not a command-line environment?",
+        "options": [
+            "A. Shell",
+            "B. CMD",
+            "C. Desktop",
+            "D. PowerShell"
+        ],
+        "answer": "C",
+        "explanation": "The desktop is a graphical user interface. All of the other choices are command-line environments."
+    },
+    {
+        "question_no": "55",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 4.8 - Explain the basics of scripting.",
+        "question_type": "simple options",
+        "question_text": "Which choice increases the permissions a command is run with?",
+        "options": [
+            "A. Precede the command with sudo",
+            "B. Run bash shell in root mode",
+            "C. Put sudo at the end of a command line",
+            "D. Precede the command with man"
+        ],
+        "answer": "A",
+        "explanation": "Preceding a command with sudo runs the command with the permissions of another user (by default, those of the root user). The bash shell does not have a \"root\" mode. Sudo must go before a command, not at the end of it. Man is a command for accessing the manuals to many aspects of a system (including installed commands)."
+    },
+    {
+        "question_no": "56",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 1.9 - Identify common features and tools of the Linux client/desktop operating system",
+        "question_type": "simple options",
+        "question_text": "In both Linux and Windows, which command will change the working directory from one folder to another?",
+        "options": [
+            "A. cmd",
+            "B. /",
+            "C. \\",
+            "D. cd"
+        ],
+        "answer": "D",
+        "explanation": "You can change the working directory in both Linux and Windows with the cd (change directory) command. / is a path separator in Linux and \\ is a path separator in Windows. Cmd is the program that opens a command-line window in Windows."
+    },
+    {
+        "question_no": "57",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 1.9 - Identify common features and tools of the Linux client/desktop operating system",
+        "question_type": "simple options",
+        "question_text": "Which command displays a list of files and directories in Windows?",
+        "options": [
+            "A. ls",
+            "B. dir",
+            "C. cls",
+            "D. su"
+        ],
+        "answer": "B",
+        "explanation": "dir is the Windows command to list files and directories. ls lists files and directories in Linux. cls is the clear-screen command in the Windows command-line environment. su forces Linux commands to be run with root permissions."
+    },
+    {
+        "question_no": "58",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools",
+        "question_type": "simple options",
+        "question_text": "Which command is a folder-management utility in the Linux command environment?",
+        "options": [
+            "A. md",
+            "B. mkdir",
+            "C. rd",
+            "D. dir"
+        ],
+        "answer": "B",
+        "explanation": "The mkdir command makes directories in Linux. md, rd and dir are all Windows commands."
+    },
+    {
+        "question_no": "59",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools",
+        "question_type": "simple options",
+        "question_text": "Which switch should be added to the rmdir command in order to delete a directory and its subdirectories?",
+        "options": [
+            "A. -subs",
+            "B. -~",
+            "C. /s",
+            "D. -r"
+        ],
+        "answer": "D",
+        "explanation": "rmdir -r removes directories and subdirectories in Linux. -subs and -~ are not valid switches for rmdir. /s is the switch used with the Windows rd command to remove subdirectories."
+    },
+    {
+        "question_no": "60",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 1.9 - Identify common features and tools of the Linux client/desktop operating system",
+        "question_type": "simple options",
+        "question_text": "Which is not a valid Linux or Windows command to erase files?",
+        "options": [
+            "A. rm",
+            "B. del",
+            "C. mv",
+            "D. cp"
+        ],
+        "answer": "D",
+        "explanation": "cp is the Linux command to copy files. rm is the Linux command to delete files. del is the Windows command to delete files. mv is the Linux command to copy files then delete the originals."
+    },
+    {
+        "question_no": "61",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 1.9 - Identify common features and tools of the Linux client/desktop operating system",
+        "question_type": "simple options",
+        "question_text": "Which command will delete all files with the extension .jpg but no other files?",
+        "options": [
+            "A. del jpg.*",
+            "B. del jpg*",
+            "C. del *.jpg",
+            "D. del *jpg"
+        ],
+        "answer": "C",
+        "explanation": "del *.jpg deletes files with any name as long as the extension is exactly .jpg. del jpg.* deletes all files with the name jpg and any extension. del jpg* deletes any files with jpg at the beginning of the name. del *jpg deletes all files with jpg at the end of the name."
+    },
+    {
+        "question_no": "62",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tool. Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues.",
+        "question_type": "simple options",
+        "question_text": "Which command finds and fixes file table problems on a Windows computer?",
+        "options": [
+            "A. dism",
+            "B. chkdsk",
+            "C. format",
+            "D. sfc"
+        ],
+        "answer": "B",
+        "explanation": "chkdsk (also called error checking) finds and fixes problems with file tables. dism finds and fixes certain Windows files. format creates a new file table and blank root directory, wiping out the old table. sfc finds and fixes certain Windows files."
+    },
+    {
+        "question_no": "63",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tool. Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues.",
+        "question_type": "simple options",
+        "question_text": "If sfc finds errors, what should a technician do?",
+        "options": [
+            "A. Run dism",
+            "B. Run chkdsk",
+            "C. Run format",
+            "D. Run chkdsk /f"
+        ],
+        "answer": "A",
+        "explanation": "Best practice if sfc finds errors is to run dism to repair critical Windows files. Chkdsk checks the file table. Chkdsk /f checks the file table and fixes bad blocks. Format wipes out the drive."
+    },
+    {
+        "question_no": "64",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools",
+        "question_type": "simple options",
+        "question_text": "Which of these is a bit-by-bit copy command?",
+        "options": [
+            "A. xcopy",
+            "B. dd",
+            "C. robocopy",
+            "D. cp"
+        ],
+        "answer": "B",
+        "explanation": "dd is a bit-by-bit copy command. The other commands are all file and directory copy commands."
+    },
+    {
+        "question_no": "65",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools",
+        "question_type": "simple options",
+        "question_text": "Which command causes /dev/sdb to be overwritten with zeroes?",
+        "options": [
+            "A. dd if=/dev/zero of=/dev/sdb",
+            "B. dd if=/dev/sdb of=/dev/zero",
+            "C. dd if=/dev/sda of=/dev/sdb",
+            "D. dd if=/dev/sbd of=~/backup.img"
+        ],
+        "answer": "A",
+        "explanation": "dd if=/dev/zero of=/dev/sdb is the standard method to overwrite the output file (of) with zeroes. dd if=/dev/sdb of=/dev/zero reverses input file (if) and output file. dd if=/dev/sda of=/dev/sdb copies the contents of /dev/sda to /dev/sdb. dd if=/dev/sbd of=~/backup.img creates an image file of /dev/sbd in the user's home directory."
+    },
+    {
+        "question_no": "66",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 2.1 - Summarize various security measures and their purposes",
+        "question_type": "simple options",
+        "question_text": "Which Windows command shows running processes and their PIDs?",
+        "options": [
+            "A. taskkill",
+            "B. tasklist",
+            "C. ps",
+            "D. gpresult"
+        ],
+        "answer": "B",
+        "explanation": "tasklist is the Windows command that shows active processes and PIDs. taskkill kills active processes. ps is the Linux command to show active processes. gpresult shows active policies on a Windows computer."
+    },
+    {
+        "question_no": "67",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 1.9 - Identify common features and tools of the Linux client/desktop operating system",
+        "question_type": "simple options",
+        "question_text": "Which apt-get option gets a list of the current version of all installed software?",
+        "options": [
+            "A. upgrade",
+            "B. remove",
+            "C. update",
+            "D. install"
+        ],
+        "answer": "C",
+        "explanation": "apt-get update collects version information (and any available updates) for all installed software. apt-get upgrade upgrades all installed software to the latest version. apt-get install installs new software. apt-get remove deletes installed software."
+    },
+    {
+        "question_no": "68",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 1.9 - Identify common features and tools of the Linux client/desktop operating system",
+        "question_type": "simple options",
+        "question_text": "Which command has replaced apt-get?",
+        "options": [
+            "A. get",
+            "B. redhat",
+            "C. debian",
+            "D. apt"
+        ],
+        "answer": "D",
+        "explanation": "apt-get has been replaced by apt (though apt-get still works). Redhat and Debian are Linux distributions. get is not a replacement for apt-get."
+    },
+    {
+        "question_no": "69",
+        "question_field": "Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings Core 2: 1.9 - Identify common features and tools of the Linux client/desktop operating system",
+        "question_type": "simple options",
+        "question_text": "To take ownership of a Linux file, which command should you use?",
+        "options": [
+            "A. pwd",
+            "B. chmod",
+            "C. chown",
+            "D. passwd"
+        ],
+        "answer": "C",
+        "explanation": "chown changes a file's owner (and the group). chmod changes a file's permissions. pwd shows the present working directory. passwd changes a user's password."
+    },
+    {
+        "question_no": "70",
+        "question_field": "Core 2: 4.8 - Explain the basics of scripting.",
+        "question_type": "simple options",
+        "question_text": "Which symbol in a Bash scripts indicates the rest of the line is a comment?",
+        "options": [
+            "A. *",
+            "B. \\",
+            "C. #",
+            "D. !"
+        ],
+        "answer": "C",
+        "explanation": "# is the comment symbol in bash. The other options are not bash comment symbols."
+    },
+    {
+        "question_no": "71",
+        "question_field": "Core 2: 4.8 - Explain the basics of scripting.",
+        "question_type": "simple options",
+        "question_text": "What is the extension of a Visual Basic file?",
+        "options": [
+            "A. .vib",
+            "B. .vis",
+            "C. .vsb",
+            "D. .vbs"
+        ],
+        "answer": "D",
+        "explanation": "Visual Basic files have the .vbs extension. The other options are not standard Visual Basic file extensions."
+    },
+    {
+        "question_no": "72",
+        "question_field": "Core 2: 4.8 - Explain the basics of scripting.",
+        "question_type": "simple options",
+        "question_text": "Which is not an interpreted language?",
+        "options": [
+            "A. JavaScript",
+            "B. Python",
+            "C. Visual Basic",
+            "D. C"
+        ],
+        "answer": "D",
+        "explanation": "C is a compiled language. The other choices are all interpreted languages."
+    },
+    {
+        "question_no": "73",
+        "question_field": "Core 2: 2.4 - Summarize types of malware and tools/methods for detection, removal, and prevention Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues",
+        "question_type": "simple options",
+        "question_text": "If you encounter boot problems, which tool is a good place to start your troubleshooting?",
+        "options": [
+            "A. Network Troubleshooter",
+            "B. System Troubleshooter",
+            "C. WinPE",
+            "D. WinRE"
+        ],
+        "answer": "D",
+        "explanation": "WinRE is an excellent tool to begin troubleshooting boot issues. WinPE is not a troubleshooting tool. System Troubleshooter and Network Troubleshooter are inaccessible if the system won't boot correctly."
+    },
+    {
+        "question_no": "74",
+        "question_field": "No exam-specific objectives",
+        "question_type": "simple options",
+        "question_text": "Which type of boot causes Windows to boot with a minimal set of drivers, services, and applications?",
+        "options": [
+            "A. Minimum",
+            "B. Safe",
+            "C. Full",
+            "D. Normal"
+        ],
+        "answer": "B",
+        "explanation": "Safe boot is a lean boot configuration that is good for troubleshooting boot problems. Full and Minimum are not boot types (although Minimal is). Normal boot loads all of the typical drivers, services and applications."
+    },
+    {
+        "question_no": "75",
+        "question_field": "No exam-specific objectives",
+        "question_type": "simple options",
+        "question_text": "How many times must Windows crash during boot for the Windows Recovery Environment to add an advanced options menu.",
+        "options": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. 3"
+        ],
+        "answer": "D",
+        "explanation": "Windows must crash 3 times during bootup for the WinRE to add the advanced options menu. The other choices are incorrect."
+    },
+    {
+        "question_no": "76",
+        "question_field": "Core 1: 5.1 - Given a scenario, troubleshoot motherboards, RAM, CPUs, and power Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment. Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools Core 2: 1.6 - Given a scenario, configure Microsoft Windows settings Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues",
+        "question_type": "simple options",
+        "question_text": "A user reports that their computer won't boot this morning. Which is the most likely reason?",
+        "options": [
+            "A. The system automatically updated drivers last night",
+            "B. The computer is stuck in Safe Mode",
+            "C. The user left their thumb drive plugged into a USB port",
+            "D. The computer is not plugged in"
+        ],
+        "answer": "C",
+        "explanation": "It's most likely that the system is trying to boot from the thumb drive. It is possible the computer is not plugged in, but this would usually be found by the user before contacting tech support. Safe Mode would still allow the computer to boot. An overnight update is also a possible cause, but it is less likely than a simple boot-order issue."
+    },
+    {
+        "question_no": "77",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues",
+        "question_type": "simple options",
+        "question_text": "A computer boots but can't load the graphical desktop. Which is not a recommended troubleshooting procedure?",
+        "options": [
+            "A. Reboot multiple times if necessary",
+            "B. Add more RAM",
+            "C. Boot into Safe Mode",
+            "D. Use WinRE to access the System logs in Event Viewer"
+        ],
+        "answer": "B",
+        "explanation": "Low RAM is not a reason for a computer to fail to run the graphical environment. Multiple reboots will launch the Windows Recovery Environment (WinRE). Booting into Safe Mode will provide access to troubleshooting tools and logs. Launching WinRE also enables access to Event viewer and logs."
+    },
+    {
+        "question_no": "78",
+        "question_field": "Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues",
+        "question_type": "simple options",
+        "question_text": "Which is not a likely cause for a slow running computer?",
+        "options": [
+            "A. Application issues",
+            "B. Low RAM",
+            "C. There are not enough services running",
+            "D. Files on the hard drive are highly fragmented"
+        ],
+        "answer": "C",
+        "explanation": "Running services consume resources, so fewer typically means better performance. Application issues, too little RAM, and highly fragmented files can all slow a computer down."
+    },
+    {
+        "question_no": "79",
+        "question_field": "Core 1: 5.1 - Given a scenario, troubleshoot motherboards, RAM, CPUs, and power Core 2: 1.4 - Given a scenario, use Microsoft Windows operating system features and tools Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues",
+        "question_type": "simple options",
+        "question_text": "A user reports that their word processor crashes every time it tries to launch. Which tool should a technician use first to diagnose the problem?",
+        "options": [
+            "A. Programs and Features",
+            "B. Task Manager",
+            "C. Event Viewer",
+            "D. Disk Defrag"
+        ],
+        "answer": "C",
+        "explanation": "Event viewer should be used to check the Application and System logs. Programs and Features may be able to repair the app, but diagnosis comes first. Task manager is not helpful; it will show the program launch and then close. Highly-fragmented files don't cause application crashes."
+    },
+    {
+        "question_no": "80",
+        "question_field": "Core 1: 5.1 - Given a scenario, troubleshoot motherboards, RAM, CPUs, and power Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues",
+        "question_type": "simple options",
+        "question_text": "Which is the most-likely cause of a Windows BSoD?",
+        "options": [
+            "A. New software installed",
+            "B. USB 3.0",
+            "C. New hardware installed",
+            "D. Flashed BIOS"
+        ],
+        "answer": "C",
+        "explanation": "New hardware is a common cause for a blue screen of death. New software, USB 3.0, and a newly-flashed bios do not commonly cause blue screens."
+    },
+    {
+        "question_no": "81",
+        "question_field": "Core 1: 2.6 - Given a scenario, configure basic wired/ wireless small office/home office (SOHO) networks Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop",
+        "question_type": "simple options",
+        "question_text": "A Class A IP address has how many locked octets?",
+        "options": [
+            "A. One",
+            "B. Two",
+            "C. Three",
+            "D. Four"
+        ],
+        "answer": "A",
+        "explanation": "The first octet of a Class A address, the network address, is locked. The other choices are incorrect."
+    },
+    {
+        "question_no": "82",
+        "question_field": "Core 2: 1.6 - Given a scenario, configure Microsoft Windows settings Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop",
+        "question_type": "simple options",
+        "question_text": "What does 255 mean in a subnet mask?",
+        "options": [
+            "A. The octet is part of the host address.",
+            "B. The octet is part of the network address.",
+            "C. The network address is 255.",
+            "D. The host address is 255."
+        ],
+        "answer": "B",
+        "explanation": "Every octet masked with 255 is part of the network address. The other answers are incorrect."
+    },
+    {
+        "question_no": "83",
+        "question_field": "Core 1: 2.7 - Compare and contrast internet connection types, network types, and their characteristics Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop",
+        "question_type": "simple options",
+        "question_text": "Which is usually true of NAT routers?",
+        "options": [
+            "A. NAT routers have a private address on the WAN side and a public address on the LAN side.",
+            "B. NAT routers have a private address on the WAN side and a private address on the LAN side.",
+            "C. NAT routers have a public address on the WAN side and a private address on the LAN side.",
+            "D. NAT routers have a public address on the WAN side and a public address on the LAN side."
+        ],
+        "answer": "C",
+        "explanation": "Normally, NAT routers have a public IP address on their WAN interface and a private IP address on their LAN interface. The other answers are not correct."
+    },
+    {
+        "question_no": "84",
+        "question_field": "Core 1: 2.4 - Explain common network configuration concepts Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop",
+        "question_type": "simple options",
+        "question_text": "What is the maximum number of characters in an FQDN?",
+        "options": [
+            "A. 128 (including dots)",
+            "B. 128 (not including dots)",
+            "C. 255 (including dots)",
+            "D. 255 (not including dots)"
+        ],
+        "answer": "C",
+        "explanation": "Fully-qualified domain names (FQDNs) can have up to 255 characters, including dots. The other choices are not correct."
+    },
+    {
+        "question_no": "85",
+        "question_field": "Core 1: 2.5 - Compare and contrast common networking hardware devices Core 2: 1.6 - Given a scenario, configure Microsoft Windows settings Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop Core 2: 2.4 - Summarize types of malware and tools/methods for detection, removal, and prevention",
+        "question_type": "simple options",
+        "question_text": "Which is not a type of Windows firewall?",
+        "options": [
+            "A. Domain",
+            "B. Enterprise",
+            "C. Private",
+            "D. Public"
+        ],
+        "answer": "B",
+        "explanation": "Enterprise is not a type of Windows firewall. Domain, private and public are all types of Windows firewall."
+    },
+    {
+        "question_no": "86",
+        "question_field": "Core 1: 2.5 - Compare and contrast common networking hardware devices Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop Core 2: 2.1 - Summarize various security measures and their purposes Core 2: 2.2 - Given a scenario, configure and apply basic Microsoft Windows OS security settings Core 2: 2.10 - Given a scenario, apply security settings on SOHO wireless and wired networks",
+        "question_type": "simple options",
+        "question_text": "Which exposes a LAN host to the Internet?",
+        "options": [
+            "A. Firewall",
+            "B. DMZ",
+            "C. SMB",
+            "D. Whitelist"
+        ],
+        "answer": "B",
+        "explanation": "A demilitarized zone (DMZ) exposes a LAN host to the Internet. A firewall blocks access to and from the Internet. SMB is a file and print sharing protocol that works within a single network. A whitelist is a type of access control list (ACL)."
+    },
+    {
+        "question_no": "87",
+        "question_field": "Core 2: 2.3 - Compare and contrast wireless security protocols and authentication methods Core 2: 2.10 - Given a scenario, apply security settings on SOHO wireless and wired networks",
+        "question_type": "simple options",
+        "question_text": "Which is not a wireless encryption standard?",
+        "options": [
+            "A. WEP",
+            "B. WPA",
+            "C. WEP2",
+            "D. WPA2"
+        ],
+        "answer": "C",
+        "explanation": "WEP2 never existed. WEP, WPA and WPA2 are all wireless encryption schemes."
+    },
+    {
+        "question_no": "88",
+        "question_field": "Core 1: 1.3 - Given a scenario, configure basic mobile device network connectivity and provide application support Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop Core 2: 3.2 - Given a scenario, troubleshoot common mobile OS and application issues Core 2: 3.4 - Given a scenario, troubleshoot common personal computer (PC) security issues",
+        "question_type": "simple options",
+        "question_text": "Which should you try first if your device can't connect to a remembered public wireless network?",
+        "options": [
+            "A. Increase the transmit power on the SOHO router",
+            "B. Connect to the SOHO router with a cable",
+            "C. Reset the SOHO router to factory defaults",
+            "D. Delete the profile and try to connect again"
+        ],
+        "answer": "D",
+        "explanation": "Delete the profile and try to make a new connection. If you're a guest in a coffee shop or hotel, it's hopefully not even possible for you to increase the power, reset the router, or connect to a wired port."
+    },
+    {
+        "question_no": "89",
+        "question_field": "Core 1: 3.1 - Compare and contrast display components and attributes. Core 2: 2.3 - Compare and contrast wireless security protocols and authentication methods Core 2: 2.10 - Given a scenario, apply security settings on SOHO wireless and wired networks",
+        "question_type": "simple options",
+        "question_text": "If you spot a WAP on the ceiling of a large room with no obvious power outlet nearby, how is it most-likely powered?",
+        "options": [
+            "A. PoE",
+            "B. RADIUS",
+            "C. Battery",
+            "D. Solar"
+        ],
+        "answer": "A",
+        "explanation": "Power over Ethernet is a common way to provide power to a WAP. RADIUS is an authentication protocol. Battery and solar power have limited use for powering a WAP mounted in a hard-to-reach location indoors."
+    },
+    {
+        "question_no": "90",
+        "question_field": "Core 1: 2.8 - Explain networking tools and their purposes Core 1: 5.5 - Given a scenario, troubleshoot network issues Core 2: 2.10 - Given a scenario, apply security settings on SOHO wireless and wired networks Core 2: 3.3 - Given a scenario, troubleshoot common mobile OS and application security issues",
+        "question_type": "simple options",
+        "question_text": "Which is most-likely to prevent a device from connecting to a previously-used Wi-Fi network?",
+        "options": [
+            "A. The antenna(s) are poorly oriented",
+            "B. The SSID has changed",
+            "C. Too many devices are accessing the WAP",
+            "D. The WAP is disconnected from the Internet"
+        ],
+        "answer": "B",
+        "explanation": "The most-likely answer is that the SSID changed. Poor antenna orientation may reduce speed or range. Too many devices using the WAP are likely to cause low or intermittent connectivity. Even if a WAP is disconnected from the Internet, devices can still connect to it."
+    },
+    {
+        "question_no": "91",
+        "question_field": "Core 1: 2.1 - Compare and contrast Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports, protocols, and their purposes Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 4.9 - Given a scenario, use remote access technologies",
+        "question_type": "simple options",
+        "question_text": "Telnet uses port _____ and SSH uses port ______.",
+        "options": [
+            "A. 23, 22",
+            "B. 22,23",
+            "C. 20,21",
+            "D. 21,20"
+        ],
+        "answer": "A",
+        "explanation": "Telnet uses port 23 and SSH uses port 22. Ports 20 and 21 are both used by FTP."
+    },
+    {
+        "question_no": "92",
+        "question_field": "Core 1: 2.1 - Compare and contrast Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports, protocols, and their purposes Core 2: 4.9 - Given a scenario, use remote access technologies",
+        "question_type": "simple options",
+        "question_text": "Windows RDP uses which port?",
+        "options": [
+            "A. 3983",
+            "B. 3389",
+            "C. 3893",
+            "D. 8933"
+        ],
+        "answer": "B",
+        "explanation": "Windows RDP uses port 3389. The other choices are incorrect."
+    },
+    {
+        "question_no": "93",
+        "question_field": "Core 1: 2.1 - Compare and contrast Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports, protocols, and their purposes Core 2: 1.5 - Given a scenario, use the appropriate Microsoft command-line tools Core 2: 2.11 - Given a scenario, configure relevant security settings in a browser",
+        "question_type": "simple options",
+        "question_text": "HTTP uses port _____ and HTTPS uses port _____.",
+        "options": [
+            "A. 88, 4430",
+            "B. 8080, 443",
+            "C. 80, 443",
+            "D. 80, 343"
+        ],
+        "answer": "C",
+        "explanation": "HTTP uses port 80 and HTTPS uses port 443."
+    },
+    {
+        "question_no": "94",
+        "question_field": "Core 1: 2.1 - Compare and contrast Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports, protocols, and their purposes Core 2: 1.7 - Given a scenario, configure Microsoft Windows networking features on a client/desktop",
+        "question_type": "simple options",
+        "question_text": "Passive mode FTP uses port ______. Active mode FTP uses this same port plus port _______.",
+        "options": [
+            "A. 20, 22",
+            "B. 20, 21",
+            "C. 21, 20",
+            "D. 21, 22"
+        ],
+        "answer": "C",
+        "explanation": "Passive FTP uses port 21, active FTP uses ports 21 and 20."
+    },
+    {
+        "question_no": "95",
+        "question_field": "Core 1: 2.3 - Summarize services provided by networked hosts Core 1: 2.3 - Summarize services provided by networked hosts Core 2: 2.8 - Given a scenario, apply common methods for securing mobile devices",
+        "question_type": "simple options",
+        "question_text": "Which is not a wireless technology used in IoT?",
+        "options": [
+            "A. Ethernet",
+            "B. 802.11",
+            "C. Zigbee",
+            "D. Z-wave"
+        ],
+        "answer": "A",
+        "explanation": "Ethernet is not wireless (and most IoT devices don't have an Ethernet port). 802.11/Wi-Fi, Zigbee, and Z-wave are all common wireless IoT connection schemes."
+    },
+    {
+        "question_no": "96",
+        "question_field": "Core 1: 3.2 - Summarize basic cable types and their connectors, features, and purposes Core 1: 5.4 - Given a scenario, troubleshoot common mobile device issues Core 2: 1.6 - Given a scenario, configure Microsoft Windows settings",
+        "question_type": "simple options",
+        "question_text": "Which is not an ACPI power mode in a laptop?",
+        "options": [
+            "A. On",
+            "B. Sleep",
+            "C. Hibernation",
+            "D. Off"
+        ],
+        "answer": "D",
+        "explanation": "ACPI does not have an \"off\" setting. On, sleep, and hibernation are all ACPI sleep modes."
+    },
+    {
+        "question_no": "97",
+        "question_field": "Core 1: 1.3 - Given a scenario, configure basic mobile device network connectivity and provide application support Core 2: 1.1 - Explain common operating system (OS) types and their purposes",
+        "question_type": "simple options",
+        "question_text": "Where can users get Android apps?",
+        "options": [
+            "A. Play Store",
+            "B. App Store",
+            "C. Microsoft Store",
+            "D. Steam store"
+        ],
+        "answer": "A",
+        "explanation": "Google Play is the primary source for Android apps. The Apple App Store provides access to iOS apps. Neither the Microsoft Store nor Steam distribute Android apps."
+    },
+    {
+        "question_no": "98",
+        "question_field": "Core 1: 1.3 - Given a scenario, configure basic mobile device network connectivity and provide application support Core 2: 2.8 - Given a scenario, apply common methods for securing mobile devices Core 2: 3.3 - Given a scenario, troubleshoot common mobile OS and application security issues",
+        "question_type": "simple options",
+        "question_text": "Which is not a mobile device maintenance practice?",
+        "options": [
+            "A. Update the PRL",
+            "B. Update the firmware",
+            "C. Back up the data and apps",
+            "D. Update the APK files"
+        ],
+        "answer": "D",
+        "explanation": "Android Package (APK) files contain installable applications; installing applications isn't part of the normal mobile-device maintenance process. PRL updates, firmware updates, and backups are all mobile device maintenance techniques."
+    },
+    {
+        "question_no": "99",
+        "question_field": "Core 1: 1.3 - Given a scenario, configure basic mobile device network connectivity and provide application support Core 1: 2.1 - Compare and contrast Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports, protocols, and their purposes Core 1: 2.3 - Summarize services provided by networked hosts Core 2: 2.1 - Summarize various security measures and their purposes Core 2: 2.8 - Given a scenario, apply common methods for securing mobile devices",
+        "question_type": "simple options",
+        "question_text": "Which port number is not used by an encrypted e-mail protocol?",
+        "options": [
+            "A. 143",
+            "B. 993",
+            "C. 587",
+            "D. 995"
+        ],
+        "answer": "A",
+        "explanation": "143 is the unencrypted IMAP port. 993 is the encrypted IMAP port. 587 is one of the encrypted SMTP port numbers. 995 is the encrypted POP3 port."
+    },
+    {
+        "question_no": "100",
+        "question_field": "Core 1: 1.3 - Given a scenario, configure basic mobile device network connectivity and provide application support Core 2: 2.1 - Summarize various security measures and their purposes Core 2: 2.8 - Given a scenario, apply common methods for securing mobile devices",
+        "question_type": "simple options",
+        "question_text": "Which is not a typical Android screen lock option?",
+        "options": [
+            "A. Swipe",
+            "B. Token",
+            "C. Pattern",
+            "D. PIN"
+        ],
+        "answer": "B",
+        "explanation": "Tokens are not used to unlock Android screens. Swipes, patterns and pins are commonly used to unlock screens."
+    },
+    {
+        "question_no": "101",
+        "question_field": "Core 2: 2.1 - Summarize various security measures and their purposes Core 2: 2.5 - Compare and contrast common social engineering attacks, threats, and vulnerabilities Core 2: 3.4 - Given a scenario, troubleshoot common personal computer (PC) security issues",
+        "question_type": "simple options",
+        "question_text": "Which is not a core component of computer security?",
+        "options": [
+            "A. Peripheral-based security",
+            "B. Host-based security",
+            "C. Network-based security",
+            "D. Physical security"
+        ],
+        "answer": "A",
+        "explanation": "There is not a specific category of security protection that focuses on peripherals. Host-based, network-based, and physical security are all core parts of protecting computer and network assets."
+    },
+    {
+        "question_no": "102",
+        "question_field": "Core 1: 3.5 - Given a scenario, install and configure motherboards, central processing units (CPUs), and add-on cards Core 2: 1.10 - Given a scenario, install applications according to requirements Core 2: 2.1 - Summarize various security measures and their purposes Core 2: 2.7 - Given a scenario, apply workstation security options and hardening techniques.",
+        "question_type": "simple options",
+        "question_text": "Which is not a layer of physical security?",
+        "options": [
+            "A. Perimeter",
+            "B. Room locks",
+            "C. Log files",
+            "D. Individual devices"
+        ],
+        "answer": "C",
+        "explanation": "Log files don't prevent attacks; they help us identify the attack after it occurred. Perimeter security, locked doors, and secured devices are levels of physical security."
+    },
+    {
+        "question_no": "103",
+        "question_field": "Core 1: 2.5 - Compare and contrast common social engineering attacks, threats, and vulnerabilities Core 1: 2.9 - Compare and contrast common data destruction and disposal methods Core 2: 2.4 - Summarize types of malware and tools/methods for detection, removal, and prevention Core 2: 2.5 - Compare and contrast common social engineering attacks, threats, and vulnerabilities",
+        "question_type": "simple options",
+        "question_text": "Which is not a vulnerability-avoidance technique?",
+        "options": [
+            "A. Apply patches",
+            "B. Download e-mail attachments",
+            "C. Run anti-malware software",
+            "D. Run a host-based firewall"
+        ],
+        "answer": "B",
+        "explanation": "Downloading e-mail attachments does not avoid vulnerabilities (and may expose your systems to them). Patching, running anti-malware software, and using a host-based firewall are all methods to avoid vulnerabilities."
+    },
+    {
+        "question_no": "104",
+        "question_field": "Core 2: 2.1 - Summarize various security measures and their purposes Core 2: 2.5 - Compare and contrast common social engineering attacks, threats, and vulnerabilities Core 2: 2.7 - Given a scenario, apply workstation security options and hardening techniques.",
+        "question_type": "simple options",
+        "question_text": "Which is not a password cracking technique?",
+        "options": [
+            "A. Brute force",
+            "B. Dictionary attack",
+            "C. Reverse hashing",
+            "D. Rainbow tables"
+        ],
+        "answer": "C",
+        "explanation": "Reverse hashing is not a password hacking method. Brute force, dictionary attacks, and rainbow tables are all techniques used to crack passwords."
+    },
+    {
+        "question_no": "105",
+        "question_field": "Core 2: 2.4 - Summarize types of malware and tools/methods for detection, removal, and prevention Core 2: 3.2 - Given a scenario, troubleshoot common mobile OS and application issues Core 2: 3.4 - Given a scenario, troubleshoot common personal computer (PC) security issues",
+        "question_type": "simple options",
+        "question_text": "Which term does not describe how malware spreads to new systems?",
+        "options": [
+            "A. Virus",
+            "B. Worm",
+            "C. Key logger",
+            "D. Trojan"
+        ],
+        "answer": "C",
+        "explanation": "The term key logger describes malware that records everything the user types. The terms virus, worm, and Trojan all describe ways that malware spreads."
+    },
+    {
+        "question_no": "106",
+        "question_field": "Core 2: 2.4 - Summarize types of malware and tools/methods for detection, removal, and prevention Core 2: 3.1 - Given a scenario, troubleshoot common Windows OS issues",
+        "question_type": "simple options",
+        "question_text": "In CompTIA's 7-step malware management process, which step immediately follows step 3 (disable System Restore)?",
+        "options": [
+            "A. Quarantine infected systems",
+            "B. Remediate infected systems",
+            "C. Schedule scans and run updates",
+            "D. Educate users"
+        ],
+        "answer": "B",
+        "explanation": "Step 4 of the 7-step system is to remediate infected systems. Step 2 is to quarantine infected systems. Step 5 is to schedule scans and run updates. Step 7 is to educate users."
+    },
+    {
+        "question_no": "107",
+        "question_field": "Core 2: 2.5 - Compare and contrast common social engineering attacks, threats, and vulnerabilities",
+        "question_type": "simple options",
+        "question_text": "Which is not a social engineering attack?",
+        "options": [
+            "A. Phishing",
+            "B. Tailgating",
+            "C. Trojan",
+            "D. Shoulder surfing"
+        ],
+        "answer": "C",
+        "explanation": "A Trojan is a malware distribution technique, not a social engineering attack. Phishing, tailgating, and shoulder surfing are each social engineering attacks."
+    },
+    {
+        "question_no": "108",
+        "question_field": "Core 2: 2.7 - Given a scenario, apply workstation security options and hardening techniques. Core 2: 4.1 - Given a scenario, implement best practices associated with documentation and support systems information management",
+        "question_type": "simple options",
+        "question_text": "Which is not a standard business document?",
+        "options": [
+            "A. Virus signature list",
+            "B. Network topology diagram",
+            "C. Regulatory and compliance document",
+            "D. Acceptable use policy"
+        ],
+        "answer": "A",
+        "explanation": "Virus signature lists are held and updated by anti-malware software. Network topology diagrams, regulatory/compliance documents, and acceptable use policies are all critical business documents."
+    },
+    {
+        "question_no": "109",
+        "question_field": "Core 2: 4.6 - Explain the importance of prohibited content/ activity and privacy, licensing, and policy concepts",
+        "question_type": "simple options",
+        "question_text": "Which is not a critical data type?",
+        "options": [
+            "A. PII",
+            "B. PHI",
+            "C. GDPR",
+            "D. Password policy"
+        ],
+        "answer": "D",
+        "explanation": "Password policies are something to be followed by all users of company resources but it isn't data that requires special handling or protection. Personally Identifiable Information (PII) and Personal Heath Information (PHI) are critical to protect. EU General Data Protection Regulation (GDPR) governs information that online providers can collect about users."
+    },
+    {
+        "question_no": "110",
+        "question_field": "Core 2: 4.2 -Given a scenario, apply change management procedures",
+        "question_type": "simple options",
+        "question_text": "What is not a change-management consideration?",
+        "options": [
+            "A. Documented practices",
+            "B. Purpose of the change",
+            "C. Risk analysis",
+            "D. History of changes"
+        ],
+        "answer": "D",
+        "explanation": "History of changes is not a major focus of the change management procedure. Documenting past practices, the purpose of the proposed changes, and associated risks are all elements that are part of the change management process."
+    },
+    {
+        "question_no": "111",
+        "question_field": "Core 1: 4.2 - Summarize cloud computing concepts Core 2: 1.2 - Given a scenario, perform OS installations and upgrades in a diverse environment. Core 2: 4.3 -Given a scenario, implement workstation backup and recovery methods",
+        "question_type": "simple options",
+        "question_text": "Which is the worst location for the only backup of some data?",
+        "options": [
+            "A. Same drive as the data being backed up",
+            "B. External hard drive",
+            "C. USB flash drive",
+            "D. Cloud storage"
+        ],
+        "answer": "A",
+        "explanation": "If a drive with live data fails, a backup saved to that drive would be lost as well. If there's only one backup, it's important to move it to another physical location. External drives, USB flash drives, and cloud storage are all better locations for a single backup. It's best, however, to keep multiple backups in multiple locations."
+    },
+    {
+        "question_no": "112",
+        "question_field": "Core 2: 2.9 - Compare and contrast common data destruction and disposal methods Core 2: 4.5 - Summarize environmental impacts and local environmental controls",
+        "question_type": "simple options",
+        "question_text": "Which is not a common device that can be recycled?",
+        "options": [
+            "A. Lithium-ion batteries",
+            "B. CRT monitors",
+            "C. Alkaline batteries",
+            "D. Toner cartridges"
+        ],
+        "answer": "C",
+        "explanation": "Alkaline batteries cannot be re-used or recycled. Toner cartridges can be refilled. Lithium-based batteries have heavy metals and toxins that can be safely recycled."
+    }
+]

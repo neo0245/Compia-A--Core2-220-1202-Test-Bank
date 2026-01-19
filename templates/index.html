@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CompTIA A+ Exam Engine</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="ambient"></div>
+  <div class="container">
+    <header class="page-header">
+      <div class="brand">
+        <div class="brand-title">CompTIA A+ Exam Engine</div>
+        <div class="brand-subtitle">Liquid glass practice station</div>
+      </div>
+      <div class="header-actions">
+        <button id="fullscreen-toggle" class="button outline">Enter Full Screen</button>
+        <button id="font-reset" class="button ghost">Reset Font</button>
+        <div class="font-controls">
+          <button id="font-smaller" class="icon-button" aria-label="Decrease font size">A-</button>
+          <button id="font-larger" class="icon-button" aria-label="Increase font size">A+</button>
+        </div>
+      </div>
+    </header>
+
+    <section id="home-view" class="view active">
+      <div class="glass-panel">
+        <h2>Start a new exam</h2>
+        <div class="home-grid">
+          <div class="home-card">
+            <label class="label">Question bank</label>
+            <select id="bank-select" class="select"></select>
+            <label class="label">Mode</label>
+            <div class="toggle-group">
+              <button id="mode-full" class="button selected">Full Test</button>
+              <button id="mode-review" class="button">Review Incorrect</button>
+            </div>
+            <div id="review-source-wrap" class="hidden">
+              <label class="label">Review source</label>
+              <select id="review-source" class="select"></select>
+            </div>
+            <button id="start-exam" class="button primary">Start Exam</button>
+          </div>
+          <div class="home-card">
+            <h3>Resume session</h3>
+            <div id="session-list" class="list"></div>
+          </div>
+          <div class="home-card">
+            <h3>History</h3>
+            <div id="history-list" class="list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="exam-view" class="view">
+      <div class="exam-header">
+        <div class="progress-wrap">
+          <div class="progress-label">Progress</div>
+          <div class="progress-bar">
+            <div id="progress-fill" class="progress-fill"></div>
+          </div>
+        </div>
+        <div class="exam-actions">
+          <button id="status-button" class="button outline">Question Status</button>
+          <div class="time-box">
+            <div id="current-time" class="time-line">--:--</div>
+            <div id="session-time" class="time-line">00:00:00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-panel question-panel">
+        <div class="question-meta">
+          <div id="question-number" class="question-number">Question</div>
+          <div id="question-field" class="question-field"></div>
+        </div>
+        <div id="question-text" class="question-text"></div>
+        <div id="options" class="options"></div>
+
+        <div id="note-section" class="note-section hidden">
+          <div id="correct-answer" class="correct-answer"></div>
+          <label class="label">Notes</label>
+          <textarea id="note-input" class="note-input" rows="3" placeholder="Write your notes here..." disabled></textarea>
+        </div>
+
+        <div class="question-actions">
+          <button id="prev-question" class="button ghost">Previous</button>
+          <button id="skip-question" class="button ghost">Skip</button>
+          <button id="flag-question" class="button outline">Flag</button>
+          <button id="next-question" class="button ghost">Next</button>
+        </div>
+
+        <div class="question-actions bottom">
+          <button id="finish-exam" class="button primary">Finish Exam</button>
+          <button id="exit-exam" class="button danger">Exit</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="status-modal" class="modal hidden">
+    <div class="modal-card glass-panel">
+      <div class="modal-header">
+        <h3>Question Status</h3>
+        <button id="close-status" class="icon-button">Close</button>
+      </div>
+      <div id="status-grid" class="status-grid"></div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
